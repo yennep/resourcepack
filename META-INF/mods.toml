@@ -1,0 +1,23 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+showAsResourcePack = false
+
+[[mods]]
+    modId = "tool_trims"
+    version = "2.3.0"
+    displayName = "Tool Trims Packaged"
+    displayURL = "https://modrinth.com/datapack/tool-trims"
+    logoFile = "pack.png"
+    authors = "JoeFly"
+    description = '''
+    Allows you to trim weapons and tools. There are over 1800 combinations!
+    Resource and Data Pack packaged as a Forge Mod for Minecraft 1.21.4
+    '''
+
+[[dependencies.tool_trims]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.21.4,)"
+    ordering="NONE"
+    side = "BOTH"
